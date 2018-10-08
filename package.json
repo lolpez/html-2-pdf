@@ -6,6 +6,7 @@
 	"scripts": {
 		"test": "test",
 		"start": "node index.js && start ./files/generated.pdf",
+		"request": "node request.js",
 		"html": "start index.html"
 	},
 	"repository": {
@@ -24,6 +25,7 @@
 	},
 	"homepage": "https://github.com/lolpez/html-2-pdf#readme",
 	"dependencies": {
-		"html-pdf": "^2.2.0"
+		"html-pdf": "^2.2.0",
+		"request": "^2.88.0"
 	}
 }
