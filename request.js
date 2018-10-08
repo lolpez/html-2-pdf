@@ -1,5 +1,5 @@
 var request = require('request');
-var url = "https://etkv80dh9b.execute-api.us-east-2.amazonaws.com/default/test";
+var url = "https://etkv80dh9b.execute-api.us-east-2.amazonaws.com/default/html2pdf";
 var fs = require('fs');
 var html = fs.readFileSync('./index.html', 'utf8');
 
