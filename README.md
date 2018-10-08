@@ -1,5 +1,5 @@
 # html-2-pdf
-HTML-PDF playground
+HTML-PDF playground using [node-html-pdf](https://www.npmjs.com/package/html-pdf)
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ A step by step series of examples that tell you have to get a Development or Pro
 npm install
 ```
 
-### Generate PDF
+### Generate a PDF file
 
 * Make sure to have a folder names "files" in your project, all generated PDF´s will be saved there. Open a command prompt and write:
 ```
