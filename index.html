@@ -94,7 +94,7 @@
 
 
 				<div class="col20 mobile100">
-					<nav class="align-right">
+					<nav class="align-right no-print">
 						<a href="https://trello-attachments.s3.amazonaws.com/5bb4f5111430a634f7226a89/5bb4f876694eee5bfa996fb7/be408d29e32588a5ede96da5bbe8cc5d/sample.html#"
 						 onclick="window.print();" class="print">Print</a>
 					</nav>
@@ -128,7 +128,7 @@
 						</li>
 						<li data-bind="if:$data.Approver"></li>
 						<li class="noprint">
-							<div class="noItemsMsg t-margin1">
+							<div class="noItemsMsg t-margin1 no-print">
 								<a href="javascript:void(0);" class="ls-first-upper ls-lowercase" data-bind="click:function(){  $root.showDeleteModalFlag(true)}">
 									Delete Purchase Order </a>
 								<a href="https://trello-attachments.s3.amazonaws.com/" class="right" data-bind="attr: {href: headerData.Dashboard[0].link}">Continue
@@ -1584,6 +1584,12 @@
         ========================================================================== */
 		.printonly {
 			display: none !important;
+		}
+
+		@media print{
+			.no-print{
+				display: none;
+			}
 		}
 
 		
