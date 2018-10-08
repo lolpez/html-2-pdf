@@ -7,3 +7,5 @@ pdf.create(html, options).toFile('./files/generated.pdf', function (err, res) {
 	if (err) return console.log(err);
 	console.log(`PDF generated at: "${res.filename}"`);
 });
+
+//download to client?
