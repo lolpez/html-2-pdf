@@ -1,0 +1,29 @@
+{
+	"name": "html-2-pdf",
+	"version": "1.0.0",
+	"description": "HTML-PDF playground",
+	"main": "index.js",
+	"scripts": {
+		"test": "test",
+		"start": "node index.js && start ./files/generated.pdf",
+		"html": "start index.html"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/lolpez/html-2-pdf.git"
+	},
+	"keywords": [
+		"HTML",
+		"PDF",
+		"JS"
+	],
+	"author": "Lolpez",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/lolpez/html-2-pdf/issues"
+	},
+	"homepage": "https://github.com/lolpez/html-2-pdf#readme",
+	"dependencies": {
+		"html-pdf": "^2.2.0"
+	}
+}
